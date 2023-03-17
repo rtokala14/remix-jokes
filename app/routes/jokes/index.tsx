@@ -25,3 +25,7 @@ function JokesIndexRoute() {
 }
 
 export default JokesIndexRoute;
+
+export function ErrorBoundary() {
+  return <div className="error-container">I did a whoopsies.</div>;
+}
